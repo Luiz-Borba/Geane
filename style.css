@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5f5b59;
+    font-size: 1.3em;
+}
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #ff65c3;
+}
+.contatos{
+    width: 50px;
+}
+.contatos:hover{
+    width: 60px;
+    transition: all 0.5s;
+}
+#containerContacts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    position: relative;
+    margin-top: 20%;
+    gap: 20px;
+
+}
+#logo{
+    display: flex;
+    margin: 10px auto;
+}
+.content1{
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+}
+.subcontent1{
+    margin-top: 50px;
+    gap: 50px;
+    
+    width: 40%;
+}
+.content2{
+    width: 100%;
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row-reverse;
+    background-color:rgb(253, 136, 255);
+    
+}
+.subcontent2{
+    margin-top: 50px;
+    gap: 50px;
+    width: 40%;
+}
+.subcontent1>p{
+    margin-top: 50px;
+}
+.imgContent{
+width: 40%;
+}
+.imgContent2{
+    width: 40%;
+    height: 40%;
+    margin: 50px;
+    }
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+}
+.seloConfere{
+    width: 30px;
+}
+li{
+    list-style: none;
+    
+    text-align: left;
+    margin-top: 30px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: left;
+}
+li>p{
+    margin-left: 30px;
+}
