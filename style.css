@@ -3,207 +3,50 @@
     padding: 0px;
 }
 
-#oqueOferecemos {
-    margin-left: 20px;
-}
-#oqueOferecemos>ul>li{
-    margin-bottom: 40px;
-}
-#conteiner2{
-    background-color: rgb(253, 136, 255, 0.1);
-    box-shadow: 1px 1px 64px -25px rgb(221, 159, 221);
-
-}
-
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.seccion {
-    width: 60%;
-    margin-left: 10px;
-}
-
-.galeria {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.galeria ul li,
-.galeria li img {
-    -webkit-transition: all 1s cubic-bezier(.42, .2, .2, .64);
-    -moz-transition: all 1s cubic-bezier(.42, .2, .2, .64);
-    -o-transition: all 1s cubic-bezier(.42, .2, .2, .64);
-    transition: all 1s cubic-bezier(.42, .2, .2, .64);
-}
-
-.galeria ul li {
-    position: relative;
-    float: left;
-    width: 140px;
-    height: 140px;
-    margin: 5px;
-    padding: 5px;
-    list-style-type: none;
-}
-
-.galeria ul li:hover {
-    z-index: 99;
-}
-
-.galeria ul li img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border: 1px solid #999999;
-    padding: 5px;
-    width: 140px;
-    height: 140px;
-    background: #abc4d6;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    border-radius: 75px;
-}
-
-.galeria ul li img:hover {
-    width: 320px;
-    height: 320px;
-    margin-top: -150px;
-    margin-left: -150px;
-    top: 50%;
-    left: 50%;
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    border-radius: 40px;
-}
-
-#copyright {
-    margin-top: 40px;
-    margin-right: 20%;
-    width: 60%;
-    text-align: right;
-    float: right;
-}
-
-
-
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5f5b59;
-    font-size: 1.3em;
-}
-
 header {
     width: 100%;
     height: 150px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 101, 195);
+    border: red solid 3px;
 }
 
-.contatos {
-    width: 50px;
-}
-
-.contatos:hover {
-    width: 60px;
-    transition: all 0.5s;
-}
-
-#containerContacts {
+main {
     display: flex;
     flex-direction: column;
-    margin-left: 40%;
-    position: relative;
-    margin-top: 20%;
-    gap: 20px;
-
 }
 
-#logo {
-    display: flex;
-    margin: 10px auto;
+.container {
+    width: 100%;
+    height: 600px;
+    border: blue solid 3px;
+    margin-top: 20px;
 }
-
-.content1 {
-    width: 95%;
-    margin: 40px auto;
+#container2 {
+    width: 100%;
+    height: 600px;
+    border: blue solid 3px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
-
 }
 
-.subcontent1 {
-    margin-top: 50px;
-    gap: 50px;
-    width: 40%;
-}
-
-.content2 {
-    width: 100%;
-    margin: 10px auto;
-    align-items: center;
+.subContainer1 {
+    width: 95%;
+    height: 90%;
+    border: solid 5px black;
+    margin: 1% auto;
     display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-direction: row-reverse;
-    background-color: rgb(253, 136, 255, 0.1);
-    box-shadow: 1px 1px 64px -25px rgb(221, 159, 221);
-
+    justify-content: space-between;
 }
-
-.subcontent2 {
-    margin-top: 20px;
-    gap: 50px;
-    width: 40%;
-}
-
-.subcontent1>p {
-    margin-top: 50px;
-}
-
-.imgContent {
-    width: 40%;
-}
-
-.imgContent2 {
-    width: 40%;
-    height: 40%;
-    margin: 50px;
-}
-
-footer {
-    width: 100%;
-    height: 150px;
-    background-color: red;
-}
-
-.seloConfere {
-    width: 30px;
-}
-
-li {
-    list-style: none;
-
-    text-align: left;
-    margin-top: 30px;
+.subContainer2 {
+    width: 45%;
+    height: 90%;
+    border: solid 5px black;
+    margin: 1% auto;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: left;
+    justify-content: space-between;
 }
-
-li>p {
-    margin-left: 30px;
+.content{
+    width: 40%;
+    height: 100%;
+    border: solid 2px red;
 }
