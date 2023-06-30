@@ -239,17 +239,15 @@ aside{
 aside>ul>li>a{
   text-decoration: none;
   color: #727171;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 aside>ul>li{
   text-decoration: none;
   list-style: none;
+  
 }
   #carrosel {
     display: none;
-  }
-
-  body {
   }
 
   header {
@@ -265,6 +263,7 @@ aside>ul>li{
     margin: 10px auto;
     margin-top: 10px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -404,7 +403,7 @@ aside>ul>li{
   .galeria {
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: -450px;
+    margin-left: -400px;
   }
   
   .galeria ul li,  .galeria li img {
