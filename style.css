@@ -193,3 +193,17 @@ h1 {
     width: 180px;
     margin-top: -10px;
 }
+.content>ul>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.content>ul>li>a{
+    text-decoration: none;
+    color: #615757;
+    
+}
+.content>ul>li>img{
+    margin-left: 20px;
+}
